@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Arial;
+}
+
+h1 {
+    /*font-size: 175%;*/
+}
+
+.titleBox {
+    position: relative;
+    border: 1px solid black;
+    left:65%;
+    width: 35%; 
+    font-size: 125%;
+    color: black;
+    text-align: center;
+}
+
+#chickenTitle {
+    background-color: yellow;
+}
+
+#beefTitle {
+    background-color: red;
+}
+
+#sushiTitle {
+    background-color: aquamarine;    
+}
+
+section {
+    background-color: aqua;
+    border: 1px solid black;
+    width: 100%;
+    float: left;
+    margin-right: 3%;
+    margin-bottom: 3%;
+}
+
+/* desktop 992px and above */
+@media (min-width: 992px) {
+    section {
+        width: 30%;
+    }
+}
+
+/* tablet between 768px and 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+    section {
+        width: 47%;
+    }
+
+    #sushi {
+        width: 97%;
+    }
+}
