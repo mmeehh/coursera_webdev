@@ -1,0 +1,92 @@
+
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: lightseagreen;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+.navbar-brand {
+    font-size: 1.5em;
+    padding-top: 25px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  background-color: lightgray;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+#page-title {
+    font-size: 1.5em;
+}
+
+#mycontainer {
+    background-color: white;
+    height: 1000px;
+    color: black;
+    border: 5px solid black;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+    #mycontainer {        
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+    #mycontainer {
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    #mycontainer {
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+    #mycontainer {
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+}
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+    #mycontainer {
+        margin-left: 9%;
+        margin-right: 9%;
+    }
+}
+
+.section-title {
+    font-size: 1.5em;
+}
